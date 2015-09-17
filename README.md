@@ -18,3 +18,5 @@ http://openshift.github.io/documentation/oo_cartridge_guide.html#diy
   <li>On Linux/OSX run: chmod +x .openshift/action_hooks/build</li>
   <li>On Linux/OSX run: chmod +x .openshift/mvn</li>
 </ul>  
+<p>then:
+git commit -am "start the project"</p>
