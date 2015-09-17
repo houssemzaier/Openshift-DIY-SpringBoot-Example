@@ -1,0 +1,12 @@
+#!/bin/bash
+# The logic to start up your application should be put in this
+# script. The application will work only if it binds to
+# $OPENSHIFT_DIY_IP:8080
+
+JDK_LINK=jdk1.8
+
+export JAVA_HOME="$OPENSHIFT_DATA_DIR/$JDK_LINK"
+export PATH=$JAVA_HOME/bin:$PATH
+
+cd $OPENSHIFT_REPO_DIR
+nohup java -jar target/*.jar --spring.profiles.active=openshift &
