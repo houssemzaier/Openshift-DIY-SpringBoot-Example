@@ -10,7 +10,7 @@ http://openshift.github.io/documentation/oo_cartridge_guide.html#diy
 
 
 
-<>after cloning the project, you should do:<>
+<h2>after cloning the project, you should do:</h2>
 <ul>
   <li>On Windows run:   git update-index --chmod=+x .openshift/action_hooks/build</li>
   <li>On Windows run:   git update-index --chmod=+x .openshift/mvn</li>
